@@ -34,14 +34,14 @@ ax = fig.add_subplot(1, 1, 1)
 ax.hist(ud, num_bins)
 ax.set(title="Uniform")
 fig.tight_layout()
-fig.savefig("UniformPlot.png")
+fig.savefig("Figures/UniformPlot.png")
 
 fig = plt.figure(num=2, clear=True)
 ax = fig.add_subplot(1, 1, 1)
 ax.hist(nd, num_bins)
 ax.set(title="Normal")
 fig.tight_layout()
-fig.savefig("NormalPlot.png")
+fig.savefig("Figures/NormalPlot.png")
 
 #print statistics
 a = np.min(ud)

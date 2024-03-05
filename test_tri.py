@@ -36,7 +36,7 @@ for k in range(n_test):
         ax = fig.axes[0]
         ax.set_title("Test {} for {}".format((k+1), NetID))
         fig.tight_layout()
-        fig.savefig("TriPlotTest{}.png".format(k+1))
+        fig.savefig("Figures/TriPlotTest{}.png".format(k+1))
         scrsave(
             "runs: triangles({:2}, {:2}, {:2})".format(a, b, c)
             + " returns ({:0.3e}, {:0.3e}, {:0.3e})".format(*out)
